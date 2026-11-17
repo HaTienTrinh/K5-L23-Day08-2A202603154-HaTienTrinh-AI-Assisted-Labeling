@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên: <<>>
-- MSHV: <<>>
-- Lớp (L2 / L3 / khác): <<>>
+- Họ và tên: Hà Tiến Trịnh
+- MSHV: 2A202603154
+- Lớp (L2 / L3 / khác): L2
 - Tài khoản GitHub: <<>>
 - Repo bài nộp (URL): <<>>
 - Commit chốt bài (hash): <<>>
