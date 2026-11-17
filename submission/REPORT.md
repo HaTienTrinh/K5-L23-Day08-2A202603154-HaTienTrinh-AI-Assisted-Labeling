@@ -73,5 +73,6 @@ Nếu Rework / Hold, việc cần làm tiếp: <<>>
 - Gold có bị nhiễm không (bạn có nhìn pre-label hay hỏi AI trước khi gán xong)? <<không / có, như sau: ...>>
 - Máy / GPU / CVAT dùng; vướng mắc cài đặt: <<>>
 - Dùng cache `data/cache/` thay vì tự chạy? <<không / có, vì ...>>
+- Ca `can_review` khi gán gold (Part 1): `img_036.jpg`, box `person` [948, 341, 34×39 px]: người ngồi phía sau bên phải xe máy, bị che nhiều, không chắc còn thấy ≥ 20% (guideline v1.0 mục 4.1.2, câu hỏi mở 4) → nguyên liệu calibration Part 6.
 - Lỗi / bug script đã gặp (nếu có): <<>>
 - Một điều bạn làm khác lần sau: <<>>
