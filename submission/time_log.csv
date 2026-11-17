@@ -1,2 +1,3 @@
 step,images,minutes,note
 gold_manual,4,25,gán tay CVAT không AI; 63 đối tượng; 1 can_review (img_036 person ngồi sau xe máy)
+batch_review,24,110,review pre-label có 12 bẫy trong CVAT; 555 đối tượng sau review
