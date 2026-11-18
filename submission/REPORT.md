@@ -50,7 +50,7 @@
 | img_010 (xích lô, nhìn từ sau) | SAM 2.1 base | 3 lần thử; bản cuối 1 dương + 5 âm + box | Không gồm người đạp | Lần 1 click dương rơi vào người đạp. Lần 2 mask còn loang lổ trên áo khoác người đạp. Mask cuối 2 polygon | `xichlo_img010.jpg` |
 
 - Đối chiếu guideline mục 4.2: quy tắc "người là vật riêng" (mục 5, ca xích lô) giúp quyết định đặt click âm lên người; quy tắc lỗ thủng (4.2.2) áp dụng được cho khung lan can tuk-tuk và xích lô. Guideline **chưa nói** hàng chở trên xe có thuộc mask không (câu hỏi mở 3): mask ba gác img_003 đang gồm hàng → ca cần chốt ở v1.1. Guideline cũng không nói mask được phép nhiều polygon hay không (img_003, img_010 ra 2 polygon).
-- *(Tuỳ chọn)* Interactor SAM trong CVAT: làm được / không (lỗi gì, đã thử gì); khác gì offline: <<>>
+- *(Tuỳ chọn)* Interactor SAM trong CVAT: làm được / không (lỗi gì, đã thử gì); khác gì offline: không thử; chỉ làm mask offline bằng `sam2_points.py`.
 
 ## 6. Calibration (Part 6)
 
@@ -73,8 +73,8 @@ Nếu Rework / Hold, việc cần làm tiếp: <<>>
 
 - **Dùng AI để làm bài** (công cụ nào, việc gì, kiểm tra thế nào; "không dùng" nếu không): <<>>
 - Gold có bị nhiễm không (bạn có nhìn pre-label hay hỏi AI trước khi gán xong)? <<không / có, như sau: ...>>
-- Máy / GPU / CVAT dùng; vướng mắc cài đặt: Windows 11 Home, RTX 3060 Laptop 6 GB (CUDA 12.4, torch 2.6.0), CVAT v2.81.0 Docker. YOLOE lần đầu tự cài CLIP từ git (r04 nạp 33 s). <<vướng mắc khác nếu có>>
+- Máy / GPU / CVAT dùng; vướng mắc cài đặt: Windows 11 Home, RTX 3060 Laptop 6 GB (CUDA 12.4, torch 2.6.0), CVAT v2.81.0 Docker. YOLOE lần đầu tự cài CLIP từ git (r04 nạp 33 s). Khi review ảnh dày, CVAT trên trình duyệt bị giật (RAM máy còn trống ~1.3/15.7 GB); tắt hiển thị text của nhãn và đóng bớt ứng dụng để giảm tải.
 - Dùng cache `data/cache/` thay vì tự chạy? Không, tự chạy toàn bộ trên GPU.
 - Ca `can_review` khi gán gold (Part 1): `img_036.jpg`, box `person` [948, 341, 34×39 px]: người ngồi phía sau bên phải xe máy, bị che nhiều, không chắc còn thấy ≥ 20% (guideline v1.0 mục 4.1.2, câu hỏi mở 4) → nguyên liệu calibration Part 6.
-- Lỗi / bug script đã gặp (nếu có): <<>>
+- Lỗi / bug script đã gặp (nếu có): không gặp bug script.
 - Một điều bạn làm khác lần sau: <<>>
