@@ -1,0 +1,7 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,1,thua,Trịnh - 2A202603154,three_wheeler không có xe ba bánh (chỗ xe máy và quầy hàng)
+img_003.jpg,26,thua,Trịnh - 2A202603154,three_wheeler sát mép phải không có xe ba bánh
+img_006.jpg,,khong,Trịnh - 2A202603154,ignore_region #71: dãy xe máy đỗ dày không tách được từng chiếc (câu hỏi mở 2)
+img_014.jpg,,khong,Trịnh - 2A202603154,
+img_031.jpg,,khong,Trịnh - 2A202603154,
+img_035.jpg,539,thua,Trịnh - 2A202603154,car trên cửa sổ tầng 2
