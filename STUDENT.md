@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2
 - Tài khoản GitHub: HaTienTrinh
 - Repo bài nộp (URL): https://github.com/HaTienTrinh/K5-L23-Day08-2A202603154-HaTienTrinh-AI-Assisted-Labeling
-- Commit chốt bài (hash): <<>>
+- Commit chốt bài (hash): 4f265dbe9fb7a7a6f80d7b0a73ba311293f0900d
 - Máy: Windows 11 Home, GPU NVIDIA GeForce RTX 3060 Laptop 6 GB (CUDA 12.4, torch 2.6.0)
 - CVAT (Docker): v2.81.0
 
